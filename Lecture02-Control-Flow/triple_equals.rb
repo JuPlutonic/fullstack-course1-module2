@@ -1,4 +1,4 @@
-if /sera/ === "coursera"
+if /sera/ === "coursera" #Regular expretion that used by === and works with String
   puts "Triple Equals"
 end
 # => Triple Equals

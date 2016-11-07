@@ -4,6 +4,7 @@ puts "no way - false is false" if false # => NOTHING PRINTED
 puts "empty string is true" if "" # => empty string is true 
 puts "nil is true?" if "nil" # => nil is true? 
 puts "no way - nil is false" if nil # => NOTHING PRINTED
-
+#2 warnings ab' usage of String then the interpreter waits expression in if statement
+# nil - false, false - false
 
  

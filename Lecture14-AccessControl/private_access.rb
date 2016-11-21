@@ -10,7 +10,7 @@ class Person
     def my_age
     	@age
     end
-    def age=(age)
+    def age= (age)    #Method SETTER IS THE ONLY EXECEPTION to Private access in Ruby
       @age = age
     end
 end

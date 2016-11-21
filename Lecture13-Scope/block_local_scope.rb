@@ -9,10 +9,11 @@ puts cur_number # => 10
 
 adjustment = 5 
 arr.each do |cur_number;adjustment| 
-  adjustment = 10 
+  adjustment = 10 ####################adjustment is not variable from outside 
+  				  ####it is value from |block_parameter|
   print "#{cur_number + adjustment} " # => 15 14 11 
 end 
 puts 
-puts adjustment # => 5 (Not affected by the block)
+puts adjustment #### => 5 (Not affected by the block) 
 
 

@@ -20,7 +20,7 @@ class Person
     #search the `people` class attribute for instances with the same `last_name`
     #return a collection of matching instancesl
     #    self.select {|last_name| @last_name === last_name}.to_s
-    @@people.select {|person| person.last_name === last_name} #######PERSON.LAST_NAME AAAAAAGGGRRRRHHHH!!!!
+    @@people.select {|person| person.last_name === last_name} #######PERSON.LAST_NAME search the people class attribute for instances with the same last_name
   end
 
   #have a `to_s` method to return a formatted string of the person's name
